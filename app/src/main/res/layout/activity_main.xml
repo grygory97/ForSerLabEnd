@@ -43,6 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
+        android:onClick="clickStart"
         android:text="@string/buton_start"
         app:layout_constraintEnd_toStartOf="@+id/buttonStop"
         app:layout_constraintHorizontal_bias="0.5"
@@ -55,6 +56,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
+        android:onClick="clickStop"
         android:text="@string/buton_stop"
         app:layout_constraintBaseline_toBaselineOf="@+id/buttonStart"
         app:layout_constraintEnd_toStartOf="@+id/buttonRestart"
@@ -66,6 +68,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
+        android:onClick="clickRestart"
         android:text="@string/buton_restart"
         app:layout_constraintBaseline_toBaselineOf="@+id/buttonStop"
         app:layout_constraintEnd_toEndOf="parent"
@@ -73,27 +76,27 @@
         app:layout_constraintStart_toEndOf="@+id/buttonStop" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
-        android:text="Service settings:"
+        android:text="@string/service_settings"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonStart"
-        app:layout_constraintVertical_bias="0.051" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321" />
 
     <TextView
         android:id="@+id/textInfoSettings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:text="textInfoSettings"
+        android:text="@string/licznik"
         android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.417" />
 </androidx.constraintlayout.widget.ConstraintLayout>

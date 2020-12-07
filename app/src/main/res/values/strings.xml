@@ -17,8 +17,8 @@
     <string name="attachment_summary_on">Double working frequency </string>
     <string name="attachment_summary_off">Standard operating frequency</string>
 
-    <!-- Main activity -->
-    <string name="info_state"> Service state: </string>
+
+    <string name="info_state">Service state:</string>
     <string name="info_service_running">Service IS running...</string>
     <string name="info_service_not_running">Service is NOT running...</string>
     <string name="info_states"> Service action: </string>
@@ -36,4 +36,6 @@
     <!-- Main menu -->
     <string name="titleSettings">Settings</string>
     <string name="titleExit">Exit</string>
+    <string name="service_settings">Service settings</string>
+    <string name="licznik">Nasz licznik: </string>
 </resources>
